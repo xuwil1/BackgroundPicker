@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+
+}
+img{
+    display: block;
+    height: 300px;
+    margin: 0 auto;
+  }
+ul{
+    border: 2px solid black;
+    padding-left: 0;
+    color: white;
+}
+ul li {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+#custColor{
+    display: flex;
+    border: none;
+    height: 25px;
+    width: 96px;
+    border-right:2px solid black;
+    border-left: 2px solid black;
+    
+}
+#red{
+    background: red;
+}
+#blue{
+    background: blue;
+}
+#green{
+    background: green;
+}
+#purple{
+    background: purple;
+}
+#reset{
+    background: black;
+}
